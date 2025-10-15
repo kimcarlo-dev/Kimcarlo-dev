@@ -180,17 +180,17 @@ function switchType(type){
   // Remove previous theme classes
   playBtn.classList.remove('theme-red', 'theme-blue', 'theme-purple');
   if(type==='fcfs'){
-    videoSource.src = 'video/FCFS_VIDEO.mp4';
+    videoSource.src = 'FCFS_VIDEO.mp4';
     schedVideo.load();
     playBtn.classList.add('theme-red');
   }
   if(type==='priority'){
-    videoSource.src = 'video/PRIORITY_VIDEO.mp4';
+    videoSource.src = 'PRIORITY_VIDEO.mp4';
     schedVideo.load();
     playBtn.classList.add('theme-blue');
   }
   if(type==='sjf'){
-    videoSource.src = 'video/SJF_VIDEO.mp4';
+    videoSource.src = 'SJF_VIDEO.mp4';
     schedVideo.load();
     playBtn.classList.add('theme-purple');
   }
